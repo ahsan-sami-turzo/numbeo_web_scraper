@@ -13,14 +13,41 @@ excel_dir = "data_files/city_data"
 columns = ["Category", "Title", "priceAverage", "priceMin", "priceMax"]
 
 
-# Define a function to convert a price string to a float and remove unwanted characters
-def convert_price(price):
-    # Replace the euro sign, the dollar sign, and the comma with empty strings
-    price = price.replace("\u20ac", "").replace("$", "").replace(",", "")
-    # Convert the price to a float
-    price = float(price)
-    # Return the price
-    return price
+# Define a function to check if a character is a special character
+def is_special_char(char):
+    # A special character is any character that is not alphanumeric or whitespace
+    return not (char.isalnum() or char.isspace())
+
+
+# Define a list of unwanted characters
+unwanted_chars = ["\n", "\t", "\r", "\u00a0", "?", "€", "\xa0", "€"]
+
+# Iterate over all the characters in the ASCII table
+for i in range(128):
+    # Convert the integer to a character
+    char = chr(i)
+    # If the character is a special character, add it to the list
+    if is_special_char(char):
+        unwanted_chars.append(char)
+
+
+# Define a function to remove unwanted characters from a string
+def remove_unwanted_chars(string):
+    # Replace each unwanted character with an empty string
+    for char in unwanted_chars:
+        string = string.replace(char, "")
+    # Return the cleaned string
+    return string
+
+
+def remove_unwanted_chars_from_number(number):
+    number = str(number)
+    number = remove_unwanted_chars(number)
+    number = number.replace("\u20ac", "").replace("$", "").replace(",", "")
+    if number == "":
+        return 0
+    number = float(number)
+    return number
 
 
 # Iterate over all files in the json directory
@@ -64,14 +91,16 @@ for filename in os.listdir(json_dir):
                     min_price = average_price
                     max_price = average_price
 
-                # Convert the prices to float and remove unwanted characters
-                average_price = convert_price(average_price)
-                min_price = convert_price(min_price)
-                max_price = convert_price(max_price)
+                # Remove unwanted characters from the strings and the numbers
+                category = remove_unwanted_chars(category)
+                title = remove_unwanted_chars(title)
+                average_price = remove_unwanted_chars_from_number(average_price)
+                min_price = remove_unwanted_chars_from_number(min_price)
+                max_price = remove_unwanted_chars_from_number(max_price)
 
                 # Create a row as a dictionary
                 row = {
-                    "Category": category.strip(),
+                    "Category": category,
                     "Title": title,
                     "priceAverage": average_price,
                     "priceMin": min_price,
