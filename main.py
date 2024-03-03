@@ -1,6 +1,7 @@
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
+import json
 
 
 class ExtractTable:
@@ -45,6 +46,15 @@ class CityScraper:
             if scrape_all_cities:
                 self.extract_all_cities()
 
+    def write_city_data_to_json(self, city_data, filename):
+        """Writes city data to a JSON file."""
+        try:
+            # Ensure data is JSON serializable (remove problematic elements if needed)
+            with open(filename, "w") as f:
+                json.dump(city_data, f, indent=4)  # Add indentation for readability
+        except Exception as e:
+            print(f"Error writing data to JSON: {e}")
+
     def write_city_data_to_excel(self, city_data, filename):
         """Writes city data to an Excel file."""
         try:
@@ -88,8 +98,9 @@ class CityScraper:
                 data = self.extract_city_data(city)
                 if data:
                     self.results[self.country]["cities"][city] = data
-                    # Ensure proper indentation and pass only two arguments
-                    self.write_city_data_to_excel(data, f"{city}.xlsx")
+                    # Writes data to excel or json
+                    # self.write_city_data_to_excel(data, f"{city}.xlsx")
+                    self.write_city_data_to_json(data, f"{city}.json")
 
     def get_results(self):
         """Returns the scraped data dictionary."""

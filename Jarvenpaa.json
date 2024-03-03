@@ -1,0 +1,297 @@
+{
+    "\n\nRestaurants": [
+        [
+            "Meal, Inexpensive Restaurant ",
+            " 13.00\u00a0\u20ac",
+            "\n"
+        ],
+        [
+            "Meal for 2 People, Mid-range Restaurant, Three-course ",
+            " 100.00\u00a0\u20ac",
+            "\n"
+        ],
+        [
+            "McMeal at McDonalds (or Equivalent Combo Meal) ",
+            " 8.47\u00a0\u20ac",
+            "\n\n7.95-9.00"
+        ],
+        [
+            "Domestic Beer (0.5 liter draught) ",
+            " 7.50\u00a0\u20ac",
+            "\n\n7.00-8.00"
+        ],
+        [
+            "Imported Beer (0.33 liter bottle) ",
+            " 8.00\u00a0\u20ac",
+            "\n\n8.00-8.00"
+        ],
+        [
+            "Cappuccino (regular) ",
+            " 3.50\u00a0\u20ac",
+            "\n"
+        ],
+        [
+            "Coke/Pepsi (0.33 liter bottle) ",
+            " 3.50\u00a0\u20ac",
+            "\n"
+        ],
+        [
+            "Water (0.33 liter bottle)  ",
+            " 3.00\u00a0\u20ac",
+            "\n"
+        ]
+    ],
+    "\n\nMarkets": [
+        [
+            "Milk (regular), (1 liter) ",
+            " 1.43\u00a0\u20ac",
+            "\n\n1.00-2.19"
+        ],
+        [
+            "Loaf of Fresh White Bread (500g) ",
+            " 3.20\u00a0\u20ac",
+            "\n\n2.00-5.00"
+        ],
+        [
+            "Rice (white), (1kg) ",
+            " 4.30\u00a0\u20ac",
+            "\n\n1.50-5.00"
+        ],
+        [
+            "Eggs (regular) (12) ",
+            " 3.21\u00a0\u20ac",
+            "\n\n2.40-4.00"
+        ],
+        [
+            "Local Cheese (1kg) ",
+            " 8.16\u00a0\u20ac",
+            "\n\n5.00-11.49"
+        ],
+        [
+            "Chicken Fillets (1kg) ",
+            " 9.00\u00a0\u20ac",
+            "\n\n4.00-14.99"
+        ],
+        [
+            "Beef Round (1kg) (or Equivalent Back Leg Red Meat) ",
+            " 17.49\u00a0\u20ac",
+            "\n\n10.00-24.99"
+        ],
+        [
+            "Apples (1kg) ",
+            " 2.76\u00a0\u20ac",
+            "\n\n1.30-4.00"
+        ],
+        [
+            "Banana (1kg) ",
+            " 2.73\u00a0\u20ac",
+            "\n\n1.20-4.00"
+        ],
+        [
+            "Oranges (1kg) ",
+            " 3.40\u00a0\u20ac",
+            "\n\n2.79-4.00"
+        ],
+        [
+            "Tomato (1kg) ",
+            " 5.09\u00a0\u20ac",
+            "\n\n3.19-7.00"
+        ],
+        [
+            "Potato (1kg) ",
+            " 2.06\u00a0\u20ac",
+            "\n\n1.20-2.50"
+        ],
+        [
+            "Onion (1kg) ",
+            " 2.75\u00a0\u20ac",
+            "\n\n2.49-3.00"
+        ],
+        [
+            "Lettuce (1 head) ",
+            " 1.95\u00a0\u20ac",
+            "\n\n1.50-2.39"
+        ],
+        [
+            "Water (1.5 liter bottle) ",
+            " 1.70\u00a0\u20ac",
+            "\n\n0.89-2.50"
+        ],
+        [
+            "Bottle of Wine (Mid-Range) ",
+            " 13.49\u00a0\u20ac",
+            "\n\n8.00-18.99"
+        ],
+        [
+            "Domestic Beer (0.5 liter bottle) ",
+            " 2.93\u00a0\u20ac",
+            "\n\n2.30-4.00"
+        ],
+        [
+            "Imported Beer (0.33 liter bottle) ",
+            " 3.21\u00a0\u20ac",
+            "\n\n3.00-3.35"
+        ],
+        [
+            "Cigarettes 20 Pack (Marlboro) ",
+            " 9.50\u00a0\u20ac",
+            "\n\n7.00-11.99"
+        ]
+    ],
+    "\n\nTransportation": [
+        [
+            "One-way Ticket (Local Transport) ",
+            " 3.00\u00a0\u20ac",
+            "\n\n2.00-4.00"
+        ],
+        [
+            "Monthly Pass (Regular Price) ",
+            " 47.50\u00a0\u20ac",
+            "\n\n35.00-60.00"
+        ],
+        [
+            "Taxi Start (Normal Tariff) ",
+            " 4.00\u00a0\u20ac",
+            "\n"
+        ],
+        [
+            "Taxi 1km (Normal Tariff) ",
+            " ?",
+            ""
+        ],
+        [
+            "Taxi 1hour Waiting (Normal Tariff) ",
+            " 100.00\u00a0\u20ac",
+            "\n"
+        ],
+        [
+            "Gasoline (1 liter) ",
+            " 2.27\u00a0\u20ac",
+            "\n\n1.85-2.69"
+        ],
+        [
+            "Volkswagen Golf 1.4 90 KW Trendline (Or Equivalent New Car) ",
+            " ?",
+            ""
+        ],
+        [
+            "Toyota Corolla Sedan 1.6l 97kW Comfort (Or Equivalent New Car) ",
+            " ?",
+            ""
+        ]
+    ],
+    "\n\nUtilities (Monthly)": [
+        [
+            "Basic (Electricity, Heating, Cooling, Water, Garbage) for 85m2 Apartment ",
+            " ?",
+            ""
+        ],
+        [
+            "Mobile Phone Monthly Plan with Calls and 10GB+ Data ",
+            " 37.00\u00a0\u20ac",
+            "\n\n25.00-49.00"
+        ],
+        [
+            "Internet (60 Mbps or More, Unlimited Data, Cable/ADSL) ",
+            " 23.00\u00a0\u20ac",
+            "\n\n15.00-39.00"
+        ]
+    ],
+    "\n\nSports And Leisure": [
+        [
+            "Fitness Club, Monthly Fee for 1 Adult ",
+            " 40.00\u00a0\u20ac",
+            "\n\n30.00-50.00"
+        ],
+        [
+            "Tennis Court Rent (1 Hour on Weekend) ",
+            " 27.50\u00a0\u20ac",
+            "\n\n25.00-30.00"
+        ],
+        [
+            "Cinema, International Release, 1 Seat ",
+            " 14.00\u00a0\u20ac",
+            "\n\n14.00-22.99"
+        ]
+    ],
+    "\n\nChildcare": [
+        [
+            "Preschool (or Kindergarten), Full Day, Private, Monthly for 1 Child ",
+            " 350.00\u00a0\u20ac",
+            "\n"
+        ],
+        [
+            "International Primary School, Yearly for 1 Child ",
+            " ?",
+            ""
+        ]
+    ],
+    "\n\nClothing And Shoes": [
+        [
+            "1 Pair of Jeans (Levis 501 Or Similar) ",
+            " 98.00\u00a0\u20ac",
+            "\n\n60.00-119.00"
+        ],
+        [
+            "1 Summer Dress in a Chain Store (Zara, H&M, ...) ",
+            " 27.50\u00a0\u20ac",
+            "\n\n25.00-30.00"
+        ],
+        [
+            "1 Pair of Nike Running Shoes (Mid-Range) ",
+            " 73.00\u00a0\u20ac",
+            "\n\n50.00-109.00"
+        ],
+        [
+            "1 Pair of Men Leather Business Shoes ",
+            " 85.00\u00a0\u20ac",
+            "\n\n70.00-100.00"
+        ]
+    ],
+    "\n\nRent Per Month": [
+        [
+            "Apartment (1 bedroom) in City Centre ",
+            " 866.33\u00a0\u20ac",
+            "\n\n650.00-1,199.00"
+        ],
+        [
+            "Apartment (1 bedroom) Outside of Centre ",
+            " 666.33\u00a0\u20ac",
+            "\n\n580.00-799.00"
+        ],
+        [
+            "Apartment (3 bedrooms) in City Centre ",
+            " 1,363.00\u00a0\u20ac",
+            "\n\n990.00-1,899.00"
+        ],
+        [
+            "Apartment (3 bedrooms) Outside of Centre ",
+            " 1,083.00\u00a0\u20ac",
+            "\n\n800.00-1,399.00"
+        ]
+    ],
+    "\n\nBuy Apartment Price": [
+        [
+            "Price per Square Meter to Buy Apartment in City Centre ",
+            " 2,700.00\u00a0\u20ac",
+            "\n"
+        ],
+        [
+            "Price per Square Meter to Buy Apartment Outside of Centre ",
+            " 2,000.00\u00a0\u20ac",
+            "\n"
+        ]
+    ],
+    "\n\nSalaries And Financing": [
+        [
+            "Average Monthly Net Salary (After Tax) ",
+            " 2,076.67\u00a0\u20ac",
+            ""
+        ],
+        [
+            "Mortgage Interest Rate in Percentages (%), Yearly, for 20 Years Fixed-Rate ",
+            " ?",
+            ""
+        ]
+    ]
+}
