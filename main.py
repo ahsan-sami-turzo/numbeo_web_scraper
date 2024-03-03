@@ -90,7 +90,7 @@ class CityScraper:
                     # Writes data to excel
                     # self.write_city_data_to_excel(data, f"{city}.xlsx")
                     # Writes data to json
-                    self.write_city_data_to_json(data, f"{city}.json")
+                    self.write_city_data_to_json(data, f"data/{city}.json")
 
     def get_results(self):
         return self.results
