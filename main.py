@@ -198,6 +198,12 @@ class CityScraper:
 if __name__ == "__main__":
     URL = "https://www.numbeo.com/cost-of-living/"
 
+    # Create Directory
+    if not os.path.exists(f"data_files"):
+        os.makedirs(f"data_files")
+    if not os.path.exists(f"data_files/numbeo_data"):
+        os.makedirs(f"data_files/numbeo_data")
+
     COUNTRY = "Finland"
     SCRAPE_ALL_CITIES = True  # Set to True to scrape all cities
     scraper = CityScraper(URL, COUNTRY, scrape_all_cities=SCRAPE_ALL_CITIES)
