@@ -188,6 +188,4 @@ data/
 # PyCharm
 .idea/
 
-# data folder
-# data_files
 data_files/numbeo_data/*
